@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="180.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="textField" layoutX="14.0" layoutY="35.0" prefHeight="33.0" prefWidth="151.0" />
+      <Button layoutX="14.0" layoutY="84.0" mnemonicParsing="false" onAction="#jeden" prefHeight="30.0" prefWidth="30.0" text="1" />
+      <Button layoutX="55.0" layoutY="84.0" mnemonicParsing="false" onAction="#dwa" prefHeight="30.0" prefWidth="30.0" text="2" />
+      <Button layoutX="96.0" layoutY="84.0" mnemonicParsing="false" onAction="#trzy" prefHeight="30.0" prefWidth="30.0" text="3" />
+      <Button layoutX="14.0" layoutY="126.0" mnemonicParsing="false" onAction="#cztery" prefHeight="30.0" prefWidth="30.0" text="4" />
+      <Button layoutX="55.0" layoutY="126.0" mnemonicParsing="false" onAction="#piec" prefHeight="30.0" prefWidth="30.0" text="5" />
+      <Button layoutX="96.0" layoutY="126.0" mnemonicParsing="false" onAction="#szesc" prefHeight="30.0" prefWidth="30.0" text="6" />
+      <Button layoutX="14.0" layoutY="166.0" mnemonicParsing="false" onAction="#siedem" prefHeight="30.0" prefWidth="30.0" text="7" />
+      <Button layoutX="55.0" layoutY="166.0" mnemonicParsing="false" onAction="#osiem" prefHeight="30.0" prefWidth="30.0" text="8" />
+      <Button layoutX="96.0" layoutY="166.0" mnemonicParsing="false" onAction="#dziewiec" prefHeight="30.0" prefWidth="30.0" text="9" />
+      <Button layoutX="55.0" layoutY="206.0" mnemonicParsing="false" onAction="#zero" prefHeight="30.0" prefWidth="30.0" text="0" />
+      <Button layoutX="136.0" layoutY="84.0" mnemonicParsing="false" onAction="#dodawanie" prefHeight="30.0" prefWidth="30.0" text="+" />
+      <Button layoutX="136.0" layoutY="126.0" mnemonicParsing="false" onAction="#odejmowanie" prefHeight="30.0" prefWidth="30.0" text="-" />
+      <Button layoutX="136.0" layoutY="166.0" mnemonicParsing="false" onAction="#dzielenie" prefHeight="30.0" prefWidth="30.0" text="/" />
+      <Button layoutX="96.0" layoutY="206.0" mnemonicParsing="false" onAction="#mnozenie" prefHeight="30.0" prefWidth="30.0" text="*" />
+      <Button layoutX="136.0" layoutY="206.0" mnemonicParsing="false" onAction="#koniec" prefHeight="30.0" prefWidth="30.0" text="=" />
+      <Button layoutX="14.0" layoutY="206.0" mnemonicParsing="false" onAction="#C" prefHeight="30.0" prefWidth="30.0" text="C" />
+      <Label fx:id="label" layoutX="15.0" layoutY="14.0" prefHeight="17.0" prefWidth="151.0" />
+   </children>
+</Pane>
